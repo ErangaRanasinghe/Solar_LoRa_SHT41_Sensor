@@ -1,0 +1,1731 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Mounting Holes M3"
+		(exclude_from_sim no)
+		(at 37.846 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8fc068c5-a315-418a-8efd-c79a85904c22")
+	)
+	(junction
+		(at 232.41 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "797da6f5-0e1e-46c1-a7fa-90d9b8ce286d")
+	)
+	(junction
+		(at 238.76 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "871ec5b2-b4fb-4936-928c-ac333eb8a27a")
+	)
+	(junction
+		(at 229.87 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7688458-fd3b-4c6e-a03b-d7661bad3805")
+	)
+	(junction
+		(at 223.52 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f15f126f-fe16-4a1c-911c-06c2817c6bdf")
+	)
+	(wire
+		(pts
+			(xy 180.34 86.36) (xy 187.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f4b845-c47e-47a2-a119-381396426178")
+	)
+	(wire
+		(pts
+			(xy 58.42 170.18) (xy 58.42 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9774c9-15d6-44ef-948c-36a78fc042f6")
+	)
+	(wire
+		(pts
+			(xy 218.44 58.42) (xy 223.52 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b29368-0fb6-48d5-a4d7-c12e069cb4f5")
+	)
+	(wire
+		(pts
+			(xy 238.76 85.09) (xy 246.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c78f698-99c7-4040-bffd-ccf3a06a1865")
+	)
+	(wire
+		(pts
+			(xy 229.87 85.09) (xy 238.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8f3b0c-011a-4c0a-9094-e99bda77b396")
+	)
+	(wire
+		(pts
+			(xy 232.41 92.71) (xy 246.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5759b8e1-a143-42a2-8387-212e605adf56")
+	)
+	(wire
+		(pts
+			(xy 60.96 96.52) (xy 87.63 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d16d007-a74c-4e5a-a6cd-58a8e4c4fbc9")
+	)
+	(wire
+		(pts
+			(xy 60.96 88.9) (xy 87.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5fd29c-cde2-40aa-8c8a-766590d1331d")
+	)
+	(wire
+		(pts
+			(xy 218.44 52.07) (xy 229.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6447ef4c-2f74-42ec-b2dc-b5b40bda4488")
+	)
+	(wire
+		(pts
+			(xy 219.71 85.09) (xy 229.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "681421ac-4f83-4132-80be-233cfb595822")
+	)
+	(wire
+		(pts
+			(xy 219.71 124.46) (xy 238.76 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7001c32b-44d8-4cb4-b149-11832c8f2a0f")
+	)
+	(wire
+		(pts
+			(xy 219.71 118.11) (xy 232.41 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712df59a-17ee-42c8-a699-7638a7255a1c")
+	)
+	(wire
+		(pts
+			(xy 223.52 92.71) (xy 232.41 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c25649-ff92-486d-bedb-0bec0802c188")
+	)
+	(wire
+		(pts
+			(xy 44.45 170.18) (xy 44.45 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf18946-3b1a-4283-b92c-6498b10ceb2c")
+	)
+	(wire
+		(pts
+			(xy 229.87 85.09) (xy 229.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f720bdd-a826-4e11-84bd-e64c7c65a53a")
+	)
+	(wire
+		(pts
+			(xy 238.76 124.46) (xy 238.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9696d132-dd22-4485-9679-908c6f1cc9e2")
+	)
+	(wire
+		(pts
+			(xy 60.96 83.82) (xy 87.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb0ba70-c842-4b52-92b5-f376fcce21e7")
+	)
+	(wire
+		(pts
+			(xy 180.34 91.44) (xy 187.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d135bb-9149-43fb-bef5-98cf4d7583d4")
+	)
+	(wire
+		(pts
+			(xy 30.48 170.18) (xy 30.48 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81b5a88-1ab4-4f63-8e52-cc2e7134cb49")
+	)
+	(wire
+		(pts
+			(xy 60.96 91.44) (xy 87.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c965fe79-0122-4e91-aba3-32574c4e7540")
+	)
+	(wire
+		(pts
+			(xy 223.52 58.42) (xy 223.52 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d463ca79-2eed-4c7c-86db-12757007365d")
+	)
+	(wire
+		(pts
+			(xy 72.39 170.18) (xy 72.39 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58a3de3-fd7f-45bc-aa21-ef7b07b4f5ac")
+	)
+	(wire
+		(pts
+			(xy 219.71 92.71) (xy 223.52 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95ea563-c732-4c1e-b7cb-135c2ae2fff1")
+	)
+	(wire
+		(pts
+			(xy 232.41 118.11) (xy 232.41 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b569d6-afc0-4e94-91b8-8076da00b7e5")
+	)
+	(wire
+		(pts
+			(xy 60.96 93.98) (xy 87.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31d0c86-eb40-45e1-abe8-f77d4f6142fa")
+	)
+	(wire
+		(pts
+			(xy 60.96 81.28) (xy 87.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe7a3f0-bff7-484e-9377-2c99c2b2bf06")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "058ec9ce-cf9b-4fca-8687-50246f76ca04")
+		(property "Reference" "#PWR0104"
+			(at 72.39 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38b62ce0-c487-42a4-b3d7-143bcec70a9f")
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 30.48 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0723ee7a-ce59-48f3-8815-8a9f5cd569c9")
+		(property "Reference" "H101"
+			(at 33.02 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 33.02 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 30.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1d0036b-9c52-4d5c-90f8-a627f3ac86de")
+		)
+		(instances
+			(project ""
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(reference "H101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b2bd3d6-cf9a-4704-8176-ec410739bb4a")
+		(property "Reference" "#PWR0101"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce69b518-fa05-4813-badc-fc62433f821c")
+		)
+		(instances
+			(project ""
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 72.39 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ad689f6-729c-4ac3-8644-e983cb2b821d")
+		(property "Reference" "H104"
+			(at 74.93 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 74.93 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 72.39 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df453d0f-1116-44fe-9029-24979b37ff5a")
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(reference "H104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dec08f7-656e-4475-b67f-7bcd895aa52a")
+		(property "Reference" "#PWR0103"
+			(at 58.42 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73818bd1-3085-4fc0-9489-264a1851c4a4")
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 58.42 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91978653-3ec1-4f83-8e3a-547793ef0774")
+		(property "Reference" "H103"
+			(at 60.96 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 60.96 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 58.42 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca8a2eec-b0d0-4d63-8080-0bc59d679c7b")
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(reference "H103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 96.52 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc52b5b9-aa99-4881-8535-9be2fd2adfbb")
+		(property "Reference" "FID101"
+			(at 99.06 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 99.06 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 96.52 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(reference "FID101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf5c78ab-3a57-470e-a4ca-cc3a652e422c")
+		(property "Reference" "H102"
+			(at 46.99 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 46.99 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab226ca8-5449-4d5e-9143-38dd70846828")
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(reference "H102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe34ef73-1ce1-4aee-b983-cc6d4eca1da1")
+		(property "Reference" "#PWR0102"
+			(at 44.45 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30f1abcc-2a27-4bfb-85f9-575faee25fd3")
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 188.214 110.744)
+		(size 31.496 21.336)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3dfc6b35-04a8-4fef-beca-766f3a7d7db3")
+		(property "Sheetname" "3.3v_Converter"
+			(at 188.214 110.0324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3.3v_Converter.kicad_sch"
+			(at 188.214 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN+" input
+			(at 219.71 124.46 0)
+			(uuid "1f618d92-7a7f-4f70-ba9e-86472d65c593")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN-" input
+			(at 219.71 118.11 0)
+			(uuid "20341fc6-0438-493f-9292-bd4e0c3fc2f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 77.978)
+		(size 31.75 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "484ddb62-79b1-4dbe-bff3-698143ff8374")
+		(property "Sheetname" "TP4056_Charger"
+			(at 187.96 77.2664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TP4056_Charger.kicad_sch"
+			(at 187.96 101.4226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT+" output
+			(at 219.71 85.09 0)
+			(uuid "f5e37f79-bbf8-45f0-ae29-55540690e56f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN+" input
+			(at 187.96 86.36 180)
+			(uuid "3a567ccd-cce8-45de-8ff5-0436bfa0c406")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN-" input
+			(at 187.96 91.44 180)
+			(uuid "38feea49-5483-4f7c-833f-f230282436d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT-" output
+			(at 219.71 92.71 0)
+			(uuid "1e76786c-8dd1-449b-87b3-7767ae62cbcf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 76.2)
+		(size 37.592 29.718)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "541b98c8-c699-4d8e-bb05-fa473644b143")
+		(property "Sheetname" "LoRa_Module_Ra-02"
+			(at 87.63 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LoRa_Module_Ra-02.kicad_sch"
+			(at 87.63 106.5026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIO0" output
+			(at 87.63 81.28 180)
+			(uuid "fdc7694c-ef82-40ee-a196-5ecca8e3d4a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LoRa-MISO" output
+			(at 87.63 88.9 180)
+			(uuid "a0caa482-3fbe-44db-9350-9beb8a25159f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LoRa-MOSI" input
+			(at 87.63 91.44 180)
+			(uuid "f32056ed-33b5-4a70-bf46-ceececff2d20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LoRa-NSS" input
+			(at 87.63 96.52 180)
+			(uuid "8fd1ff48-69de-499c-81a5-814f754000e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LoRa-RESET" input
+			(at 87.63 83.82 180)
+			(uuid "1a85d17d-14e3-411d-9fe8-7599ae3ac19d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LoRa-SCK" input
+			(at 87.63 93.98 180)
+			(uuid "ae5a1924-a936-4be2-aa5b-cf7b356c2deb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.844 79.375)
+		(size 31.496 21.463)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ca2b3fd-61f6-48b4-88ce-6504da0079e1")
+		(property "Sheetname" "AC_power_module"
+			(at 148.844 78.6634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AC_power_module.kicad_sch"
+			(at 148.844 101.4226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+Vout" output
+			(at 180.34 86.36 0)
+			(uuid "3e8e2e8c-9958-45f9-a3e8-aeec494a31d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-Vout" output
+			(at 180.34 91.44 0)
+			(uuid "8ed73acb-3d5f-438e-9cb3-89086f7e4f67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 246.38 77.978)
+		(size 29.464 22.606)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "625f4f9c-da9a-4f02-8306-7d03107693c0")
+		(property "Sheetname" "Battery_Module"
+			(at 246.38 77.2664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery_Module.kicad_sch"
+			(at 246.38 101.1686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BAT+" bidirectional
+			(at 246.38 85.09 180)
+			(uuid "ba1fdd29-79cc-4933-8768-64d187b91331")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT-" input
+			(at 246.38 92.71 180)
+			(uuid "15a0a793-05e0-449b-8fc3-85e1aedf52ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.638 75.946)
+		(size 36.322 29.718)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a48804c-f8bb-4272-8341-3981540f3318")
+		(property "Sheetname" "MCU"
+			(at 24.638 75.2344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 24.638 106.2486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LoRa_INT" input
+			(at 60.96 81.28 0)
+			(uuid "756f634e-440a-419d-8284-e0785e80ee06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LoRa_RST" output
+			(at 60.96 83.82 0)
+			(uuid "6e6ad9ff-20e0-4fd0-af01-6bd9bc112bf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 60.96 88.9 0)
+			(uuid "8f7fb5a6-cd4b-411e-9318-99e1fe86c8cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MOSI" output
+			(at 60.96 91.44 0)
+			(uuid "a2c87e11-12c0-412d-a325-930435740d10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_NSS" output
+			(at 60.96 96.52 0)
+			(uuid "a635b9c0-f55e-4fe8-949b-f5fabc5836c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_SCK" output
+			(at 60.96 93.98 0)
+			(uuid "46f1049d-1824-4755-8110-9b279b93efe5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.626 43.688)
+		(size 35.814 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae21eb8a-dcd5-4896-ab16-4532b352bb44")
+		(property "Sheetname" "MPPT_Charger_module"
+			(at 182.626 42.9764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MPPT_Charger_module.kicad_sch"
+			(at 182.626 67.1326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MPPT+" output
+			(at 218.44 52.07 0)
+			(uuid "43f0d6ec-1e74-4ef1-9e0a-a14abc0fab03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MPPT-" output
+			(at 218.44 58.42 0)
+			(uuid "3b351b1c-59c0-439d-8a58-c33a1e26587d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

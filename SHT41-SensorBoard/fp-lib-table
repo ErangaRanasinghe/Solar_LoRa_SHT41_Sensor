@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "govi.ai-logo-front")(type "KiCad")(uri "${KIPRJMOD}/govi.ai-logo-front.pretty")(options "")(descr ""))
+)
