@@ -1093,197 +1093,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Varistor"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at 3.175 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Varistor"
-				(at -3.175 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Voltage dependent resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "kicad_builtin_varistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=A 2=B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Params" "threshold=1k"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "VDR resistance"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RV_* Varistor*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Varistor_0_0"
-				(text "U"
-					(at -1.778 -2.032 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "Varistor_0_1"
-				(polyline
-					(pts
-						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Varistor_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GND_1"
 			(power)
 			(pin_numbers
@@ -1375,6 +1184,197 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Varistor_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at 3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Varistor"
+				(at -3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Voltage dependent resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Name" "kicad_builtin_varistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=A 2=B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "threshold=1k"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "VDR resistance"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RV_* Varistor*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Varistor_1_0_0"
+				(text "U"
+					(at -1.778 -2.032 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Varistor_1_0_1"
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Varistor_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2134,6 +2134,122 @@
 		)
 	)
 	(symbol
+		(lib_name "Varistor_1")
+		(lib_id "Device:Varistor")
+		(at 85.09 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a319287-8654-44d2-8595-b90e5a3c3b08")
+		(property "Reference" "RV401"
+			(at 87.63 96.7132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Varistor"
+			(at 87.63 99.2532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Varistor:RV_Disc_D12mm_W5.1mm_P7.5mm"
+			(at 83.312 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage dependent resistor"
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_varistor"
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=B"
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "threshold=1k"
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a36e5264-a968-4cf6-a6bb-3fb3a55ee160")
+		)
+		(pin "2"
+			(uuid "357e6590-c7f4-4e32-bafb-bf67dbfac15a")
+		)
+		(instances
+			(project ""
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
+					(reference "RV401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 104.14 96.52 0)
 		(unit 1)
@@ -2212,7 +2328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ea4c857-902d-4ec6-8c0b-d4cc657b4588")
-		(property "Reference" "#FLG0402"
+		(property "Reference" "#FLG0401"
 			(at 152.4 86.995 0)
 			(effects
 				(font
@@ -2261,7 +2377,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
-					(reference "#FLG0402")
+					(reference "#FLG0401")
 					(unit 1)
 				)
 			)
@@ -2417,7 +2533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b59f9f9-9ffc-4152-9083-e3fc82fc8f04")
-		(property "Reference" "FL301"
+		(property "Reference" "FL401"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -2433,7 +2549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:B82730U3951A020"
+		(property "Footprint" "govi_v3_SHT41_sensor_kicad:B82730U3451A020-ferrite-core-inductor"
 			(at 137.16 104.14 0)
 			(effects
 				(font
@@ -2474,7 +2590,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
-					(reference "FL301")
+					(reference "FL401")
 					(unit 1)
 				)
 			)
@@ -2508,7 +2624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 213.0552 100.33 0)
 			(effects
 				(font
@@ -2560,7 +2676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d3acb1c-3335-4886-8ab9-424d69c22996")
-		(property "Reference" "#PWR0405"
+		(property "Reference" "#PWR0406"
 			(at 240.03 113.03 0)
 			(effects
 				(font
@@ -2610,7 +2726,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
-					(reference "#PWR0405")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -2625,7 +2741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70942f8f-815c-4141-be85-c360dc75c996")
-		(property "Reference" "J301"
+		(property "Reference" "J401"
 			(at 60.96 90.17 0)
 			(effects
 				(font
@@ -2641,7 +2757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "govi.ai-sensor-sht41-wifi:P=7.62mm Barrier Terminal Blocks"
+		(property "Footprint" "govi_v3_SHT41_sensor_kicad:P=7.62mm Barrier Terminal Blocks azend"
 			(at 60.96 99.06 0)
 			(effects
 				(font
@@ -2676,7 +2792,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
-					(reference "J301")
+					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -2693,7 +2809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74181560-11b7-41ab-850e-fa1d59c43aa9")
-		(property "Reference" "#FLG0403"
+		(property "Reference" "#FLG0402"
 			(at 157.48 86.995 0)
 			(effects
 				(font
@@ -2742,7 +2858,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
-					(reference "#FLG0403")
+					(reference "#FLG0402")
 					(unit 1)
 				)
 			)
@@ -2758,7 +2874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e3e86e8-0b80-428d-9bd9-cb47825058fe")
-		(property "Reference" "#PWR0403"
+		(property "Reference" "#PWR0405"
 			(at 240.03 92.71 0)
 			(effects
 				(font
@@ -2808,7 +2924,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
-					(reference "#PWR0403")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
@@ -2824,7 +2940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81d1ae20-2a22-461c-9634-2f4ec2158d96")
-		(property "Reference" "#PWR0407"
+		(property "Reference" "#PWR0403"
 			(at 212.09 92.71 0)
 			(effects
 				(font
@@ -2874,7 +2990,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
-					(reference "#PWR0407")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -2908,7 +3024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 240.9952 100.33 0)
 			(effects
 				(font
@@ -2944,120 +3060,6 @@
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
 					(reference "C403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Varistor")
-		(at 85.09 97.79 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7cdb50a-2e2d-4aea-86d3-781a9772352c")
-		(property "Reference" "RV301"
-			(at 88.9 96.3267 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10D561"
-			(at 88.9 98.8667 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Varistor:RV_Disc_D12mm_W5.1mm_P7.5mm"
-			(at 86.868 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_varistor"
-			(at 85.09 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 85.09 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=A 2=B"
-			(at 85.09 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "threshold=1k"
-			(at 85.09 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 85.09 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1903f137-cba3-404c-bb0b-e22cbc2fc2c0")
-		)
-		(pin "2"
-			(uuid "21599b81-83b2-49c4-a116-0499397ad647")
-		)
-		(instances
-			(project "govi_v3_SHT41_sensor_kicad"
-				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
-					(reference "RV301")
 					(unit 1)
 				)
 			)
@@ -3139,7 +3141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6e6d553-65a7-4846-91d2-c2b2523e4d4b")
-		(property "Reference" "TH301"
+		(property "Reference" "TH401"
 			(at 77.47 83.82 90)
 			(effects
 				(font
@@ -3155,7 +3157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:B57236S0250M000"
+		(property "Footprint" "govi_v3_SHT41_sensor_kicad:B57236S0250M000-Thermister"
 			(at 77.47 90.17 0)
 			(effects
 				(font
@@ -3190,7 +3192,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
-					(reference "TH301")
+					(reference "TH401")
 					(unit 1)
 				)
 			)

@@ -285,7 +285,7 @@
 		(uuid "a4497372-d31b-4893-99d3-470f23b3b771")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/govi_v3_trh_sensor_kicad.pretty/Ra-02 LoRa--3DModel-STEP-1.STEP"
+	(model "${KIPRJMOD}/govi_v3_SHT41_sensor_kicad.pretty/Ra-02 LoRa--3DModel-STEP-1.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

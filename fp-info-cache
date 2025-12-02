@@ -1,4 +1,4 @@
-26718910707569571
+26729149589387027
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106344,6 +106344,20 @@ Varistor VF
 2
 2
 govi_v3_SHT41_sensor_kicad
+B57236S0250M000-Thermister
+B57236S0250M000-2
+Thermistor
+0
+2
+2
+govi_v3_SHT41_sensor_kicad
+B82730U3451A020-ferrite-core-inductor
+B82730U3951A020
+Filter
+0
+4
+4
+govi_v3_SHT41_sensor_kicad
 BAT_1042P
 
 
@@ -106358,9 +106372,37 @@ MODULE_RA-02_LORA
 16
 16
 govi_v3_SHT41_sensor_kicad
+P=7.62mm Barrier Terminal Blocks azend
+
+
+0
+2
+2
+govi_v3_SHT41_sensor_kicad
+POGO_3Pin_2.54mm_SMD
+
+
+0
+3
+3
+govi_v3_SHT41_sensor_kicad
 SOP65P640X120-8N
 
 
 0
 8
 8
+govi_v3_SHT41_sensor_kicad
+govi-ai-logo-back
+
+
+0
+0
+0
+govi_v3_SHT41_sensor_kicad
+govi-ai-logo-front
+
+
+0
+0
+0

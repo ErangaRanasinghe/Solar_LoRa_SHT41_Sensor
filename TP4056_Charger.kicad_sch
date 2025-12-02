@@ -889,6 +889,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text " - Resistors & Capacitor size - 0603"
+		(exclude_from_sim no)
+		(at 34.544 192.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "020e9d4d-7b4d-4858-b880-41aa88bc6071")
+	)
 	(text "To battery+ & Load+"
 		(exclude_from_sim no)
 		(at 166.116 88.646 0)
@@ -911,7 +921,7 @@
 	)
 	(text "FROM_AC_MODULE"
 		(exclude_from_sim no)
-		(at 90.424 112.268 0)
+		(at 102.87 115.062 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -921,7 +931,7 @@
 	)
 	(text "FROM_AC_MODULE"
 		(exclude_from_sim no)
-		(at 89.408 80.264 0)
+		(at 103.378 77.216 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1267,7 +1277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d027bb9-a396-4e9f-b9a1-3f4182e4cd6e")
-		(property "Reference" "#PWR0606"
+		(property "Reference" "#PWR0603"
 			(at 146.05 120.65 0)
 			(effects
 				(font
@@ -1317,7 +1327,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/484ddb62-79b1-4dbe-bff3-698143ff8374"
-					(reference "#PWR0606")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -1348,7 +1358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 144.78 91.44 0)
 			(effects
 				(font
@@ -1418,7 +1428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 144.272 105.41 90)
 			(effects
 				(font
@@ -1470,7 +1480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c9f2c32-94dc-4141-aee2-f1fa7fd1dbd3")
-		(property "Reference" "#PWR0605"
+		(property "Reference" "#PWR0604"
 			(at 190.5 91.44 0)
 			(effects
 				(font
@@ -1520,7 +1530,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/484ddb62-79b1-4dbe-bff3-698143ff8374"
-					(reference "#PWR0605")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
@@ -1536,7 +1546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aae4f335-8bf6-4bf1-bcca-fdbd1a29a7c6")
-		(property "Reference" "#PWR0603"
+		(property "Reference" "#PWR0601"
 			(at 124.46 81.28 0)
 			(effects
 				(font
@@ -1586,7 +1596,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/484ddb62-79b1-4dbe-bff3-698143ff8374"
-					(reference "#PWR0603")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -1602,7 +1612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccf024be-c5e0-4f43-a3ce-b18ed4f25346")
-		(property "Reference" "#PWR0604"
+		(property "Reference" "#PWR0605"
 			(at 190.5 109.22 0)
 			(effects
 				(font
@@ -1652,7 +1662,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/484ddb62-79b1-4dbe-bff3-698143ff8374"
-					(reference "#PWR0604")
+					(reference "#PWR0605")
 					(unit 1)
 				)
 			)
@@ -1752,7 +1762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 191.4652 99.06 0)
 			(effects
 				(font

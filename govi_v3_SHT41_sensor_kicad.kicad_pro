@@ -447,8 +447,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "govi_v3_SHT41_sensor_kicad"
+    ],
+    "pinned_symbol_libs": [
+      "govi.ai_v3_sym"
+    ]
   },
   "meta": {
     "filename": "govi_v3_SHT41_sensor_kicad.kicad_pro",
@@ -640,7 +644,7 @@
     ],
     [
       "3dfc6b35-04a8-4fef-beca-766f3a7d7db3",
-      "3.3v_Converter"
+      "3.3v_BuckBoost"
     ]
   ],
   "text_variables": {}

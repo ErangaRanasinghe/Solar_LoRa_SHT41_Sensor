@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "govi_v3_SHT41_sensor_kicad")(type "KiCad")(uri "${KIPRJMOD}/govi_v3_trh_sensor_kicad.pretty")(options "")(descr ""))
+  (lib (name "govi_v3_SHT41_sensor_kicad")(type "KiCad")(uri "${KIPRJMOD}/govi_v3_SHT41_sensor_kicad.pretty")(options "")(descr ""))
 )
