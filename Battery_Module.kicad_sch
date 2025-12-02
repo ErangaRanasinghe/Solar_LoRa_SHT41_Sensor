@@ -1561,6 +1561,140 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 83.566 72.136)
+		(end 181.102 139.954)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a783def2-d414-48d0-a210-328d3548cfa6)
+	)
+	(text "Over Charge\nOver discharge\nOptimal Current Path"
+		(exclude_from_sim no)
+		(at 159.004 135.382 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42e9fd42-45f6-4e84-8ab7-2b970ef7e566")
+	)
+	(text "Battery Protection Circuit"
+		(exclude_from_sim no)
+		(at 131.318 74.422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a03daa0f-a132-4aef-99b2-71f48a12a29b")
 	)
 	(junction
 		(at 172.72 87.63)
@@ -1599,7 +1733,7 @@
 		(uuid "e717f0db-8044-4be1-9377-d3d286f024df")
 	)
 	(junction
-		(at 186.69 87.63)
+		(at 193.04 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4c261e9-cf34-4ac1-8233-033b14f2d9ab")
@@ -1696,7 +1830,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 87.63) (xy 172.72 87.63)
+			(xy 163.83 87.63) (xy 172.72 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1756,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 87.63) (xy 186.69 96.52)
+			(xy 193.04 87.63) (xy 193.04 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1786,7 +1920,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 87.63) (xy 186.69 87.63)
+			(xy 172.72 87.63) (xy 193.04 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1796,7 +1930,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 128.27) (xy 130.81 133.35)
+			(xy 130.81 128.27) (xy 130.81 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1846,6 +1980,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 82.55) (xy 193.04 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a26fef-f62e-4e68-9457-113f0cfe48f0")
+	)
+	(wire
+		(pts
 			(xy 127 97.79) (xy 127 102.87)
 		)
 		(stroke
@@ -1866,7 +2010,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 87.63) (xy 147.32 87.63)
+			(xy 156.21 87.63) (xy 147.32 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1876,7 +2020,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 87.63) (xy 193.04 87.63)
+			(xy 193.04 87.63) (xy 199.39 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1886,7 +2030,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 115.57) (xy 186.69 115.57)
+			(xy 147.32 115.57) (xy 193.04 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1916,7 +2060,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 104.14) (xy 186.69 115.57)
+			(xy 193.04 104.14) (xy 193.04 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1947,7 +2091,7 @@
 	)
 	(hierarchical_label "BAT+"
 		(shape bidirectional)
-		(at 193.04 87.63 0)
+		(at 199.39 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1958,7 +2102,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 163.83 87.63 270)
+		(at 160.02 87.63 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1967,7 +2111,7 @@
 		(dnp no)
 		(uuid "0a9e2985-e044-487c-a4c3-ea2a9c18154b")
 		(property "Reference" "R702"
-			(at 163.83 85.09 90)
+			(at 160.02 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +2119,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 163.83 82.55 90)
+			(at 160.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +2127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 89.408 90)
+			(at 160.02 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +2136,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 87.63 0)
+			(at 160.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,7 +2145,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 87.63 0)
+			(at 160.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2026,7 +2170,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 133.35 0)
+		(at 130.81 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2035,7 +2179,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d0a002a-c6ae-4e49-a41f-0a7ad98b7908")
 		(property "Reference" "#PWR0702"
-			(at 130.81 139.7 0)
+			(at 130.81 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,7 +2188,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 138.43 0)
+			(at 130.81 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,7 +2196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 133.35 0)
+			(at 130.81 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,7 +2205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 133.35 0)
+			(at 130.81 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2070,7 +2214,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 133.35 0)
+			(at 130.81 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2376,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 186.69 101.6 0)
+		(at 193.04 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2241,7 +2385,7 @@
 		(fields_autoplaced yes)
 		(uuid "bef24283-fe64-470b-836f-fe0b7353dfe6")
 		(property "Reference" "BT701"
-			(at 190.5 98.4884 0)
+			(at 196.85 98.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,7 +2394,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 190.5 101.0284 0)
+			(at 196.85 101.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +2403,7 @@
 			)
 		)
 		(property "Footprint" "govi_v3_SHT41_sensor_kicad:BAT_1042P"
-			(at 186.69 100.076 90)
+			(at 193.04 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2412,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 100.076 90)
+			(at 193.04 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +2421,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 186.69 101.6 0)
+			(at 193.04 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,6 +2439,72 @@
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/625f4f9c-da9a-4f02-8306-7d03107693c0"
 					(reference "BT701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 193.04 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca36be33-040c-4b6a-928a-5d05d487e0d5")
+		(property "Reference" "#FLG0701"
+			(at 193.04 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 193.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 193.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bd06f5b-44ca-4d60-8e0e-87c3c809a4f5")
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/625f4f9c-da9a-4f02-8306-7d03107693c0"
+					(reference "#FLG0701")
 					(unit 1)
 				)
 			)
