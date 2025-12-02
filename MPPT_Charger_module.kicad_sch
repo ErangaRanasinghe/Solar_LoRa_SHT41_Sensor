@@ -1964,9 +1964,9 @@
 		)
 		(uuid "98ed00b6-cbf4-4b50-8519-3e3ee26fe998")
 	)
-	(text "Tantalum\ncapacitor"
+	(text "- C507 - Tantalum capacitor - T491A106M020AT"
 		(exclude_from_sim no)
-		(at 245.364 90.678 0)
+		(at 41.148 188.722 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4126,7 +4126,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 25V"
+		(property "Value" "10uF 20V"
 			(at 241.3 86.9949 0)
 			(effects
 				(font
@@ -4135,7 +4135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_HandSolder"
 			(at 237.49 86.36 0)
 			(effects
 				(font
@@ -4264,7 +4264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF 50V"
+		(property "Value" "220uF 35V"
 			(at 83.82 86.9949 0)
 			(effects
 				(font
@@ -4273,7 +4273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 80.01 86.36 0)
 			(effects
 				(font
@@ -4466,7 +4466,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "47nF"
 			(at 73.66 95.2499 0)
 			(effects
 				(font
@@ -4743,7 +4743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 			(at 139.7 88.9 0)
 			(effects
 				(font
