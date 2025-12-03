@@ -2409,7 +2409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx"
+		(property "Footprint" "govi_v3_SHT41_sensor_kicad:HLK5M05"
 			(at 168.91 105.41 0)
 			(effects
 				(font

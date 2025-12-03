@@ -1,4 +1,4 @@
-26729149589387027
+26730914276378158
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106364,6 +106364,13 @@ BAT_1042P
 0
 2
 2
+govi_v3_SHT41_sensor_kicad
+HLK5M05
+HLK-5M05
+Power Supply
+0
+4
+4
 govi_v3_SHT41_sensor_kicad
 MODULE_RA-02_LORA
 
