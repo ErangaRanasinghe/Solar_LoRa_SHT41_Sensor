@@ -5,6 +5,113 @@
 	(uuid "ad965844-a03e-4d54-a1c3-e7807c8a59ba")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1659,6 +1766,12 @@
 		(uuid "1275994d-f705-41e7-b5e4-5af9746b5a4d")
 	)
 	(junction
+		(at 187.96 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a830ecb-fd5b-4349-9471-ae67b2c9fc96")
+	)
+	(junction
 		(at 104.14 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1706,16 +1819,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 88.9) (xy 212.09 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aeea3f7-b832-4ca7-900c-b88261c7201d")
-	)
-	(wire
-		(pts
 			(xy 142.24 100.33) (xy 157.48 100.33)
 		)
 		(stroke
@@ -1756,6 +1859,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 90.17) (xy 187.96 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d234c7-cb50-45e8-9ad4-4d63880a1e29")
+	)
+	(wire
+		(pts
 			(xy 152.4 95.25) (xy 158.75 95.25)
 		)
 		(stroke
@@ -1763,16 +1876,6 @@
 			(type default)
 		)
 		(uuid "3e364395-3aba-42f1-b7e0-6b599ab6c00d")
-	)
-	(wire
-		(pts
-			(xy 240.03 100.33) (xy 240.03 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f57f9c0-60bb-44f4-ac13-b3092b6d2525")
 	)
 	(wire
 		(pts
@@ -1796,7 +1899,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 100.33) (xy 189.23 100.33)
+			(xy 185.42 100.33) (xy 190.5 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1916,16 +2019,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 100.33) (xy 212.09 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ada3b266-a93b-4ac3-9127-ded6a389b22b")
-	)
-	(wire
-		(pts
 			(xy 66.04 96.52) (xy 69.85 96.52)
 		)
 		(stroke
@@ -1956,16 +2049,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 88.9) (xy 240.03 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6fae7c1-d104-4076-822b-64b1bf9dd0c1")
-	)
-	(wire
-		(pts
 			(xy 69.85 99.06) (xy 69.85 104.14)
 		)
 		(stroke
@@ -1976,13 +2059,23 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 95.25) (xy 185.42 95.25)
+			(xy 190.5 95.25) (xy 187.96 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d07c6570-1ace-4ec5-b507-eeeae2b9670a")
+	)
+	(wire
+		(pts
+			(xy 187.96 95.25) (xy 185.42 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e683f8-a7cd-44d7-93fd-cc00cb93e7ad")
 	)
 	(wire
 		(pts
@@ -2046,7 +2139,7 @@
 	)
 	(hierarchical_label "-Vout"
 		(shape output)
-		(at 189.23 100.33 0)
+		(at 190.5 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2057,7 +2150,7 @@
 	)
 	(hierarchical_label "+Vout"
 		(shape output)
-		(at 189.23 95.25 0)
+		(at 190.5 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2458,73 +2551,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 212.09 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ac8d729-0ca1-49de-ad7c-599b6b3df575")
-		(property "Reference" "#PWR0404"
-			(at 212.09 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14b14146-599f-4222-86d0-999f72d4db73")
-		)
-		(instances
-			(project ""
-				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
-					(reference "#PWR0404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Filter_EMI_LL_1423")
 		(at 137.16 97.79 0)
 		(unit 1)
@@ -2591,142 +2617,6 @@
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
 					(reference "FL401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 212.09 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52574f42-c3e5-41df-a871-bfe805df7e7d")
-		(property "Reference" "C402"
-			(at 215.9 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1MFD/16V"
-			(at 215.9 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 213.0552 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d78865c0-f23c-4728-aa4d-83bce072eff1")
-		)
-		(pin "2"
-			(uuid "ed13a3e6-7e85-4c6c-9d8c-ed93c16d164d")
-		)
-		(instances
-			(project "govi_v3_SHT41_sensor_kicad"
-				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
-					(reference "C402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 240.03 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d3acb1c-3335-4886-8ab9-424d69c22996")
-		(property "Reference" "#PWR0406"
-			(at 240.03 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.03 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb218952-1e29-4c21-8a9f-bac9d98ce638")
-		)
-		(instances
-			(project "govi_v3_SHT41_sensor_kicad"
-				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
-					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
@@ -2865,149 +2755,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 240.03 88.9 0)
+		(lib_id "Connector:TestPoint")
+		(at 187.96 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7e3e86e8-0b80-428d-9bd9-cb47825058fe")
-		(property "Reference" "#PWR0405"
-			(at 240.03 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 240.03 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 240.03 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1b45447-8fd8-45b9-b446-73d48f936545")
-		)
-		(instances
-			(project "govi_v3_SHT41_sensor_kicad"
-				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
-					(reference "#PWR0405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 212.09 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81d1ae20-2a22-461c-9634-2f4ec2158d96")
-		(property "Reference" "#PWR0403"
-			(at 212.09 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 212.09 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 212.09 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18e88b2a-d6b4-4d74-a060-4707c347a9d8")
-		)
-		(instances
-			(project "govi_v3_SHT41_sensor_kicad"
-				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
-					(reference "#PWR0403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 240.03 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a31466fb-91d7-4a81-a910-387c617b950a")
-		(property "Reference" "C403"
-			(at 243.84 95.25 0)
+		(uuid "ade11576-376c-4655-a6ba-cebdfac54bf0")
+		(property "Reference" "TP401"
+			(at 190.5 85.5979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,8 +2773,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10MFD/16V"
-			(at 243.84 97.79 0)
+		(property "Value" "5V"
+			(at 190.5 88.1379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,8 +2782,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 240.9952 100.33 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 193.04 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +2792,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 96.52 0)
+			(at 193.04 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,24 +2800,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 240.03 96.52 0)
+		(property "Description" "test point"
+			(at 187.96 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "d28babf9-4c2e-4db7-b6da-e3b61549e1bf")
-		)
-		(pin "2"
-			(uuid "74199bcf-5718-44fc-a4d2-db769b1546d8")
+			(uuid "929af3ac-02a1-4c4d-b2b2-8613b9e452e8")
 		)
 		(instances
-			(project "govi_v3_SHT41_sensor_kicad"
+			(project ""
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/5ca2b3fd-61f6-48b4-88ce-6504da0079e1"
-					(reference "C403")
+					(reference "TP401")
 					(unit 1)
 				)
 			)

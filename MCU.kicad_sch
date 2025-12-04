@@ -3001,7 +3001,7 @@
 	)
 	(text "Status Indicator\n"
 		(exclude_from_sim no)
-		(at 153.924 143.256 0)
+		(at 150.114 157.226 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3244,6 +3244,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 121.92) (xy 175.26 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a955e1-00b2-4aa1-be13-0a32c2db1701")
+	)
+	(wire
+		(pts
 			(xy 83.82 48.26) (xy 83.82 54.61)
 		)
 		(stroke
@@ -3274,7 +3284,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 137.16) (xy 152.4 137.16)
+			(xy 143.51 151.13) (xy 148.59 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3331,6 +3341,16 @@
 			(type default)
 		)
 		(uuid "20d0c8c6-12b6-458e-bda5-69963d403f35")
+	)
+	(wire
+		(pts
+			(xy 163.83 121.92) (xy 163.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e762df-54c8-4bdd-a289-6954a803ff76")
 	)
 	(wire
 		(pts
@@ -3414,6 +3434,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 133.35) (xy 172.72 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f26478-9b24-41c0-8781-880bfbe594eb")
+	)
+	(wire
+		(pts
 			(xy 204.47 52.07) (xy 212.09 52.07)
 		)
 		(stroke
@@ -3464,7 +3494,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 137.16) (xy 179.07 137.16)
+			(xy 166.37 151.13) (xy 175.26 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3814,7 +3844,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 137.16) (xy 160.02 137.16)
+			(xy 148.59 133.35) (xy 165.1 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80a62e8-536b-4fbe-a4d4-1473d2eac3ef")
+	)
+	(wire
+		(pts
+			(xy 158.75 151.13) (xy 156.21 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3974,7 +4014,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 137.16) (xy 179.07 132.08)
+			(xy 175.26 151.13) (xy 175.26 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4054,6 +4094,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 128.27) (xy 160.02 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc3a71b-d081-48e3-8595-aa4a8c7e3303")
+	)
+	(wire
+		(pts
 			(xy 104.14 85.09) (xy 99.06 85.09)
 		)
 		(stroke
@@ -4071,6 +4121,16 @@
 			(type default)
 		)
 		(uuid "e07ffdbb-2875-46e5-98bc-524d69675be5")
+	)
+	(wire
+		(pts
+			(xy 148.59 128.27) (xy 152.4 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41c3f2d-cc5e-41cf-86cd-cb2c35e714e5")
 	)
 	(wire
 		(pts
@@ -4283,7 +4343,7 @@
 		(uuid "513da200-1afa-4374-8983-28db6db6ef36")
 	)
 	(label "LED"
-		(at 147.32 137.16 180)
+		(at 143.51 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4362,6 +4422,16 @@
 		)
 		(uuid "a1ef8823-1360-42da-9526-6cf2d4e2e59d")
 	)
+	(label "I2C1_SDA"
+		(at 148.59 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2a1f910-7cb2-47d6-91c1-5e9101a57967")
+	)
 	(label "SWDIO"
 		(at 104.14 95.25 0)
 		(effects
@@ -4381,6 +4451,16 @@
 			(justify right bottom)
 		)
 		(uuid "b3377743-16fa-4ca3-852f-295a95eb087a")
+	)
+	(label "I2C1_SCL"
+		(at 148.59 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c29acf75-d190-4c60-96d1-81348f7fabba")
 	)
 	(label "USART1_TX"
 		(at 134.62 176.53 180)
@@ -4528,7 +4608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0130dce8-882c-4f7f-b62b-4b958d2af22f")
-		(property "Reference" "J201"
+		(property "Reference" "J202"
 			(at 218.44 84.455 0)
 			(effects
 				(font
@@ -4587,7 +4667,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "J201")
+					(reference "J202")
 					(unit 1)
 				)
 			)
@@ -4603,7 +4683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ed5a800-cd04-472e-bd72-2f1632d1a66a")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0221"
 			(at 232.41 53.34 0)
 			(effects
 				(font
@@ -4653,7 +4733,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0218")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -4737,7 +4817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "129dc113-3ddf-41b7-924e-e49a9525a832")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR0220"
 			(at 219.71 143.51 0)
 			(effects
 				(font
@@ -4787,7 +4867,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0217")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -4803,7 +4883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "141e6323-f4f5-4d36-8860-c4d749e0eb89")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0210"
 			(at 160.02 109.22 0)
 			(effects
 				(font
@@ -4853,7 +4933,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0209")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -4869,7 +4949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1deff82e-b3ac-428f-a2b3-d9b0205eca35")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0229"
 			(at 270.51 143.51 0)
 			(effects
 				(font
@@ -4919,7 +4999,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0226")
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -4927,7 +5007,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 156.21 137.16 0)
+		(at 152.4 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4936,7 +5016,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e8220b1-d7ce-498d-a672-b11bf5be9078")
 		(property "Reference" "D201"
-			(at 154.6225 130.81 0)
+			(at 150.8125 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +5024,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 154.6225 133.35 0)
+			(at 150.8125 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +5032,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 156.21 137.16 0)
+			(at 152.4 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,7 +5041,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 137.16 0)
+			(at 152.4 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4970,7 +5050,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 156.21 137.16 0)
+			(at 152.4 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,7 +5059,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 156.21 137.16 0)
+			(at 152.4 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +5160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ee64112-71c4-42cc-9c7a-158751a377c1")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR0217"
 			(at 207.01 74.93 0)
 			(effects
 				(font
@@ -5129,7 +5209,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0214")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -5279,7 +5359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b5aa472-7fe8-44c4-8970-6aa4379a975c")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR0207"
 			(at 130.81 190.5 0)
 			(effects
 				(font
@@ -5329,7 +5409,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0227")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -5345,7 +5425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3099ff15-d8e5-4879-bf5b-83f1e247a03d")
-		(property "Reference" "R203"
+		(property "Reference" "R204"
 			(at 160.02 76.2 90)
 			(effects
 				(font
@@ -5397,7 +5477,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "R203")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -5413,7 +5493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31a640f8-c1ba-4f0b-9a42-6a62484f8006")
-		(property "Reference" "J202"
+		(property "Reference" "J203"
 			(at 261.62 83.8199 0)
 			(effects
 				(font
@@ -5473,7 +5553,7 @@
 		(instances
 			(project ""
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "J202")
+					(reference "J203")
 					(unit 1)
 				)
 			)
@@ -5489,7 +5569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3834b57e-02f3-415c-bfb8-e3de73bf837f")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR0218"
 			(at 207.01 104.14 0)
 			(effects
 				(font
@@ -5538,7 +5618,72 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0215")
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 175.26 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38c53dd4-7132-4659-b970-e3d5dd3aa8b7")
+		(property "Reference" "#PWR0212"
+			(at 175.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 175.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72899eb7-b0b9-45f2-b778-c959e097a66f")
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -5690,7 +5835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "452d1d5e-9fca-4543-900b-c06c63ed1c78")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0222"
 			(at 237.49 129.54 0)
 			(effects
 				(font
@@ -5740,7 +5885,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0219")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -5756,7 +5901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47a0d399-6d5a-4d0f-9bdb-d596eb009684")
-		(property "Reference" "R202"
+		(property "Reference" "R203"
 			(at 160.02 40.6399 0)
 			(effects
 				(font
@@ -5810,7 +5955,72 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "R202")
+					(reference "R203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5766064b-7e17-47ff-ae69-a89e6b4bdd54")
+		(property "Reference" "#PWR0211"
+			(at 163.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 163.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b951ca2-2673-434c-af36-f8b781d69b65")
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -5826,7 +6036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57e968ef-d7e3-4723-ac37-0d8e485bfb0f")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR0219"
 			(at 219.71 129.54 0)
 			(effects
 				(font
@@ -5876,7 +6086,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0216")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -6162,7 +6372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f9b2ae7-54a5-46bb-85f6-38c9a280962e")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR0208"
 			(at 152.4 72.39 0)
 			(effects
 				(font
@@ -6212,7 +6422,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0207")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -6228,7 +6438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74b53db3-b86b-48d5-b694-5b90f05a8494")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0223"
 			(at 237.49 143.51 0)
 			(effects
 				(font
@@ -6278,7 +6488,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0220")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -6294,7 +6504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c5331ce-ce55-4011-9b63-0029f91b265c")
-		(property "Reference" "R205"
+		(property "Reference" "R207"
 			(at 185.42 40.6399 0)
 			(effects
 				(font
@@ -6348,7 +6558,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "R205")
+					(reference "R207")
 					(unit 1)
 				)
 			)
@@ -6434,7 +6644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8791c028-f8bc-46e8-95b0-bcba70e41ccb")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR0228"
 			(at 270.51 129.54 0)
 			(effects
 				(font
@@ -6484,7 +6694,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0225")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -6500,7 +6710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "881bf6e2-5c66-4d7c-8c4c-35d1ce8622bd")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0227"
 			(at 254 143.51 0)
 			(effects
 				(font
@@ -6550,7 +6760,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0224")
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -6841,7 +7051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "960d658c-6c35-4d19-9c7b-1cd928977daa")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0226"
 			(at 254 129.54 0)
 			(effects
 				(font
@@ -6891,7 +7101,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0223")
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -6908,7 +7118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "962696d8-a0e0-4df5-ab6f-7a0723da66de")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0209"
 			(at 157.48 55.88 0)
 			(effects
 				(font
@@ -6958,7 +7168,7 @@
 		(instances
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0208")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -7042,7 +7252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fd69a4b-ae65-4220-a4f9-53a9eb1a6d1c")
-		(property "Reference" "R206"
+		(property "Reference" "R208"
 			(at 207.01 39.3699 0)
 			(effects
 				(font
@@ -7096,7 +7306,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "R206")
+					(reference "R208")
 					(unit 1)
 				)
 			)
@@ -7113,7 +7323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a62ebf3f-2fa0-4a84-8ac0-f7d54e3f2dd6")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0214"
 			(at 182.88 55.88 0)
 			(effects
 				(font
@@ -7163,7 +7373,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0211")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -7313,7 +7523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b139530a-5853-48ce-83c5-cab9dd48c7ac")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR0215"
 			(at 203.2 143.51 0)
 			(effects
 				(font
@@ -7363,7 +7573,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0212")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -7379,7 +7589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b86f58fc-56f6-497c-80a4-2872bfb8ed8a")
-		(property "Reference" "J203"
+		(property "Reference" "J201"
 			(at 142.24 175.2599 0)
 			(effects
 				(font
@@ -7397,7 +7607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 139.7 176.53 0)
 			(effects
 				(font
@@ -7436,7 +7646,7 @@
 		(instances
 			(project ""
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "J203")
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -7452,7 +7662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b884770e-e302-490c-979c-a64435d5cf18")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0225"
 			(at 252.73 104.14 0)
 			(effects
 				(font
@@ -7502,7 +7712,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0222")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -7645,7 +7855,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 179.07 132.08 0)
+		(at 175.26 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7653,8 +7863,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cacd1a6a-a9bb-460f-b4ad-2eca4da4810b")
-		(property "Reference" "#PWR0210"
-			(at 179.07 135.89 0)
+		(property "Reference" "#PWR0213"
+			(at 175.26 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7663,7 +7873,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 179.07 127 0)
+			(at 175.26 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +7881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 132.08 0)
+			(at 175.26 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7680,7 +7890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 132.08 0)
+			(at 175.26 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7689,7 +7899,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 179.07 132.08 0)
+			(at 175.26 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7703,7 +7913,74 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0210")
+					(reference "#PWR0213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc946a64-82b6-486c-86e3-7f16000819ed")
+		(property "Reference" "R206"
+			(at 168.91 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 168.91 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 168.91 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "879baf94-c5fd-44ad-89a1-36b14c393fc2")
+		)
+		(pin "2"
+			(uuid "3a5cc97a-e2df-43e5-88ff-8a448ef4fa93")
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
+					(reference "R206")
 					(unit 1)
 				)
 			)
@@ -7787,7 +8064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e963c8aa-0be5-464f-8427-5d0fe7b706ad")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0224"
 			(at 252.73 74.93 0)
 			(effects
 				(font
@@ -7837,7 +8114,7 @@
 		(instances
 			(project ""
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0221")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -7845,7 +8122,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 166.37 137.16 90)
+		(at 162.56 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7853,8 +8130,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec495248-e01e-4999-9bae-f47fb8b7dffd")
-		(property "Reference" "R204"
-			(at 166.37 130.81 90)
+		(property "Reference" "R205"
+			(at 162.56 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,7 +8139,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 166.37 133.35 90)
+			(at 162.56 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7870,7 +8147,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 166.37 138.938 90)
+			(at 162.56 152.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7879,7 +8156,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 137.16 0)
+			(at 162.56 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7888,7 +8165,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 166.37 137.16 0)
+			(at 162.56 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,7 +8182,7 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "R204")
+					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -7938,7 +8215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 147.32 90.17 0)
 			(effects
 				(font
@@ -8056,7 +8333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f97b79a5-286e-4abb-b85f-29caeabd1017")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR0216"
 			(at 204.47 36.83 0)
 			(effects
 				(font
@@ -8106,7 +8383,74 @@
 		(instances
 			(project "govi_v3_trh_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
-					(reference "#PWR0213")
+					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd0df8f3-4fa6-45d8-aa40-03e5369eeeda")
+		(property "Reference" "R202"
+			(at 156.21 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 156.21 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 156.21 126.492 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60f46010-1c7d-4518-b086-d0e60d1d540b")
+		)
+		(pin "2"
+			(uuid "cd111127-62db-4a69-8352-3611029c80d8")
+		)
+		(instances
+			(project "govi_v3_SHT41_sensor_kicad"
+				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/6a48804c-f8bb-4272-8341-3981540f3318"
+					(reference "R202")
 					(unit 1)
 				)
 			)
