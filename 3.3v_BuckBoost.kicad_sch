@@ -955,7 +955,7 @@
 	)
 	(text "Fixed 3.3V \ncontinues 800mA"
 		(exclude_from_sim no)
-		(at 192.532 79.502 0)
+		(at 192.532 71.628 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1019,7 +1019,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 77.47) (xy 182.88 83.82)
+			(xy 182.88 68.58) (xy 182.88 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1156,6 +1156,16 @@
 			(type default)
 		)
 		(uuid "8368b8fc-6730-4ec0-8414-30a14bac8366")
+	)
+	(wire
+		(pts
+			(xy 172.72 78.74) (xy 172.72 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845c894c-2df0-4c30-9a39-d89139ab8355")
 	)
 	(wire
 		(pts
@@ -1512,7 +1522,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 182.88 77.47 0)
+		(at 182.88 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1521,7 +1531,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c6877d2-c375-4d0a-9122-439d820137b3")
 		(property "Reference" "#PWR0804"
-			(at 182.88 81.28 0)
+			(at 182.88 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1540,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 182.88 72.39 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 77.47 0)
+			(at 182.88 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,7 +1557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 77.47 0)
+			(at 182.88 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,7 +1566,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 182.88 77.47 0)
+			(at 182.88 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +1588,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 172.72 83.82 0)
+		(at 172.72 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1587,7 +1597,7 @@
 		(fields_autoplaced yes)
 		(uuid "74e4be83-e98c-4c63-b009-75c652b4c0cc")
 		(property "Reference" "TP801"
-			(at 175.26 79.2479 0)
+			(at 175.26 74.1679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1606,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 175.26 81.7879 0)
+			(at 175.26 76.7079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,7 +1615,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 177.8 83.82 0)
+			(at 177.8 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +1624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 83.82 0)
+			(at 177.8 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1623,7 +1633,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 172.72 83.82 0)
+			(at 172.72 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

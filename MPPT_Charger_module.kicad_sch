@@ -1939,16 +1939,16 @@
 		(uuid "670f86b5-8b4e-433f-a874-b49d08ef7399")
 	)
 	(junction
-		(at 257.81 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72363ee8-c281-421d-9e60-6195f6ec487e")
-	)
-	(junction
 		(at 69.85 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "734e5396-8641-47b1-8ca7-23e3df162707")
+	)
+	(junction
+		(at 240.03 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81fa93d6-edb0-4a2b-b054-a99888d93a0b")
 	)
 	(junction
 		(at 237.49 96.52)
@@ -2158,6 +2158,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 78.74) (xy 247.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "32b82a98-7953-4f27-9629-bd0301af4793")
+	)
+	(wire
+		(pts
 			(xy 80.01 100.33) (xy 69.85 100.33)
 		)
 		(stroke
@@ -2308,6 +2318,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 74.93) (xy 240.03 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "692dc5dc-c3b3-4434-a485-6dc6e884b86a")
+	)
+	(wire
+		(pts
 			(xy 125.73 107.95) (xy 125.73 78.74)
 		)
 		(stroke
@@ -2368,7 +2388,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 78.74) (xy 260.35 78.74)
+			(xy 255.27 78.74) (xy 260.35 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2425,26 +2445,6 @@
 			(type default)
 		)
 		(uuid "a8c2ff39-e27b-48f5-8c2b-638b5e2b391d")
-	)
-	(wire
-		(pts
-			(xy 257.81 74.93) (xy 257.81 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad6b3679-9e03-4845-890c-ff222d8f87ec")
-	)
-	(wire
-		(pts
-			(xy 255.27 78.74) (xy 257.81 78.74)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "ae29bb6d-f74c-44ee-9c00-b92f18495495")
 	)
 	(wire
 		(pts
@@ -2598,7 +2598,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 78.74) (xy 247.65 78.74)
+			(xy 237.49 78.74) (xy 240.03 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3612,7 +3612,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 257.81 74.93 0)
+		(at 240.03 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3621,7 +3621,7 @@
 		(fields_autoplaced yes)
 		(uuid "49a9145e-1644-462b-8fdc-312f9f756461")
 		(property "Reference" "TP501"
-			(at 260.35 70.3579 0)
+			(at 242.57 70.3579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3630,7 @@
 			)
 		)
 		(property "Value" "MPPT"
-			(at 260.35 72.8979 0)
+			(at 242.57 72.8979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3639,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 262.89 74.93 0)
+			(at 245.11 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 74.93 0)
+			(at 245.11 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +3657,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 257.81 74.93 0)
+			(at 240.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +3669,7 @@
 			(uuid "ac6948c9-6be6-48ed-91ad-f4d11b45d4ba")
 		)
 		(instances
-			(project ""
+			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/ae21eb8a-dcd5-4896-ab16-4532b352bb44"
 					(reference "TP501")
 					(unit 1)
