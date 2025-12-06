@@ -1004,25 +1004,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "Q501"
+				(at 8.89 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "Q_PMOS_Depletion"
-				(at 5.08 0 0)
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -1212,7 +1210,7 @@
 							)
 						)
 					)
-					(number "G"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1230,7 +1228,7 @@
 							)
 						)
 					)
-					(number "D"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1248,7 +1246,7 @@
 							)
 						)
 					)
-					(number "S"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2280,7 +2278,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 78.74) (xy 162.56 78.74)
+			(xy 160.02 78.74) (xy 173.99 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2407,16 +2405,6 @@
 			(type solid)
 		)
 		(uuid "9e166936-907b-4257-8b7a-63eeddaf4cc2")
-	)
-	(wire
-		(pts
-			(xy 170.18 78.74) (xy 173.99 78.74)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "9f78dafa-ad3f-4300-a46b-4f0f1bebe48b")
 	)
 	(wire
 		(pts
@@ -3174,13 +3162,13 @@
 				(hide yes)
 			)
 		)
-		(pin "S"
+		(pin "1"
 			(uuid "c999789c-ede5-4f24-8468-51ad36ac5655")
 		)
-		(pin "D"
+		(pin "3"
 			(uuid "39be04a1-28c3-4246-af3b-3048d42cab6a")
 		)
-		(pin "G"
+		(pin "2"
 			(uuid "7743a24e-89cf-45df-9301-d77f2cb8b95b")
 		)
 		(instances
@@ -4026,74 +4014,6 @@
 			(project "govi_v3_SHT41_sensor_kicad"
 				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/ae21eb8a-dcd5-4896-ab16-4532b352bb44"
 					(reference "C507")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 166.37 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d7c6a0f-bbbc-489d-b524-1306f7dcef96")
-		(property "Reference" "D501"
-			(at 166.6875 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS54"
-			(at 166.6875 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 166.37 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 166.37 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "849e3cf7-6fb3-4f75-bdf5-d9e47dd34cf2")
-		)
-		(pin "1"
-			(uuid "10f366d8-d3ed-4117-a659-c108655bd252")
-		)
-		(instances
-			(project "govi_v3_SHT41_sensor_kicad"
-				(path "/ba95ddf4-72c6-4eeb-9c09-ae7c8e5af670/ae21eb8a-dcd5-4896-ab16-4532b352bb44"
-					(reference "D501")
 					(unit 1)
 				)
 			)
